@@ -40,6 +40,13 @@ Install these apps:
 - Bitwarden
 - Trello
 
+
+## Setup github
+https://docs.github.com/en/enterprise-server@3.8/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux  
+
+https://docs.github.com/en/enterprise-server@3.8/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account  
+
+
 ## Github Flow
 | STEP | COMMAND / ACTION | EXPLANATION |
 |------|------------------|-------------|
