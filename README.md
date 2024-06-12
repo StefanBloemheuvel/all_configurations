@@ -10,7 +10,7 @@ First of all launch VS Code and open the Command Palette (Cmd+Shift+P) and type 
 Now, you can open folders with just the command code, or with sublime text just like: subl ~/.zshrc for your zsh config
 
 #### Make mac dock appear and dissapear faster 
-defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
+defaults write com.apple.Dock autohide-delay -float 0 && killall Dock  
 defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 
 ## Important Mac apps/changes
