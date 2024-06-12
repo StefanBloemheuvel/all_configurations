@@ -5,6 +5,8 @@ configs for vscode, sublime, ohmyzsh and more
 
 ## always do this
 
+#### Set capslock to Escape
+Settings -> keyboard --> key combinations --> special keys --> caps lock to escape
 #### Add vscode and sublimne etc to PATH 
 First of all launch VS Code and open the Command Palette (Cmd+Shift+P) and type ‘shell command’ to find the Shell Command: Install ‘code’ command in PATH command. Now you should be able to open iTerm and type code ~/.zshrc.
 Now, you can open folders with just the command code, or with sublime text just like: subl ~/.zshrc for your zsh config
