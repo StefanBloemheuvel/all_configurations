@@ -18,8 +18,8 @@ defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 
 then run this:
 
-echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/stefan.bloemheuvel/.zprofile
-    eval "$(/opt/homebrew/bin/brew shellenv)
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/stefan.bloemheuvel/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 
     
 ## Important Mac apps/changes
