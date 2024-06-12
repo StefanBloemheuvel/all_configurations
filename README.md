@@ -15,17 +15,22 @@ defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 
 #### Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    
+
+Then, if not allowed to install due to restrictions, install:
+
+- Sublime Text
+- Alfred
+
+  
 ## Important Mac apps/changes
 Install these apps:
-1. Homebrew
-2. Spectacle
-3. Pure Paste
-4. Hidden bar
-5. Alfred
-6. Ghostery ad blocker safari
-7. Bitwarden
-8. Trello
+- Homebrew
+- Spectacle
+- Pure PAste
+- Hidden Bar
+- Ghostery ad blocker
+- Bitwarden
+- Trello
 
 ## Github Flow
 | STEP | COMMAND / ACTION | EXPLANATION |
