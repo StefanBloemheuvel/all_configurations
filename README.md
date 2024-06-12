@@ -16,7 +16,12 @@ defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 #### Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+then run this:
 
+echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/stefan.bloemheuvel/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)
+
+    
 ## Important Mac apps/changes
 Install these apps:
 1. Homebrew
