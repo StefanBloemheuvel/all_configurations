@@ -5,8 +5,13 @@ configs for vscode, sublime, ohmyzsh and more
 
 ### always do this ####
 
+#### Add vscode and sublimne etc to PATH ####
 First of all launch VS Code and open the Command Palette (Cmd+Shift+P) and type ‘shell command’ to find the Shell Command: Install ‘code’ command in PATH command. Now you should be able to open iTerm and type code ~/.zshrc.
 Now, you can open folders with just the command code, or with sublime text just like: subl ~/.zshrc for your zsh config
+
+#### Make mac dock appear and dissapear faster ####
+defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
+defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 
 ### Important Mac apps/changes
 Install these apps:
@@ -14,6 +19,10 @@ Install these apps:
 2. Spectacle
 3. Pure Paste
 4. Hidden bar
+5. Alfred
+6. Ghostery ad blocker safari
+7. Bitwarden
+8. Trello
 
 ### Github Flow ###
 | STEP | COMMAND / ACTION | EXPLANATION |
