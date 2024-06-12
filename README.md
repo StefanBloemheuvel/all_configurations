@@ -21,7 +21,8 @@ defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 Then, if not allowed to install due to restrictions, install:
 
 - Sublime Text
-- Alfred
+- Alfred (activate alfred premium with key in mail)
+
 
 
 #### Install oh-my-zsh
