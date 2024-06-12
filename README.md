@@ -21,7 +21,12 @@ Then, if not allowed to install due to restrictions, install:
 - Sublime Text
 - Alfred
 
-  
+
+#### Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+
 ## Important Mac apps/changes
 Install these apps:
 - Homebrew
