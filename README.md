@@ -46,6 +46,9 @@ https://docs.github.com/en/enterprise-server@3.8/authentication/connecting-to-gi
 
 https://docs.github.com/en/enterprise-server@3.8/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account  
 
+## Optional
+Control brightness with vivib: https://www.getvivid.app  
+External monitor brightness control: https://github.com/MonitorControl/MonitorControl  
 
 ## Github Flow
 | STEP | COMMAND / ACTION | EXPLANATION |
