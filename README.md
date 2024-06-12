@@ -13,6 +13,10 @@ Now, you can open folders with just the command code, or with sublime text just 
 defaults write com.apple.Dock autohide-delay -float 0 && killall Dock  
 defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 
+#### Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
 ## Important Mac apps/changes
 Install these apps:
 1. Homebrew
