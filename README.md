@@ -47,7 +47,7 @@ https://docs.github.com/en/enterprise-server@3.8/authentication/connecting-to-gi
 https://docs.github.com/en/enterprise-server@3.8/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account  
 
 Then, add your ssh key to your ssh config by:  
-'nano ~/.ssh/config'  
+`nano ~/.ssh/config`  
 
 and then write:  
 ```sh
