@@ -23,10 +23,11 @@ Then, if not allowed to install due to restrictions, install:
 - Sublime Text
 - Alfred (activate alfred premium with key in mail)
 
-
+#### Instal a specific version of python with brew
+`brew install python@3.9`  
 
 #### Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`  
 
 
 
