@@ -51,11 +51,11 @@ Then, add your ssh key to your ssh config by:
 
 and then write:  
 
-'Host *
+'''Host *
     UseKeychain yes
     AddKeysToAgent yes
     IdentityFile ~/.ssh/id_ed25519
-'  
+'''  
 
 ## Optional
 Control brightness with vivid: https://www.getvivid.app  
