@@ -50,13 +50,12 @@ Then, add your ssh key to your ssh config by:
 'nano ~/.ssh/config'  
 
 and then write:  
-
-'''Host *
-    UseKeychain yes
-    AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_ed25519
-'''  
-
+```sh
+Host *
+UseKeychain yes
+AddKeysToAgent yes
+IdentityFile ~/.ssh/id_ed25519
+```
 ## Optional
 Control brightness with vivid: https://www.getvivid.app  
 External monitor brightness control: https://github.com/MonitorControl/MonitorControl  
