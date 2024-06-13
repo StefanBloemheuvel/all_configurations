@@ -55,7 +55,7 @@ External monitor brightness control: https://github.com/MonitorControl/MonitorCo
 |------|------------------|-------------|
 | 1    | `git checkout develop` | Make sure you are in the develop branch |
 | 2    | `git pull origin develop` | Pull latest code version from develop branch before making a new branch |
-| 3    | `git checkout -b 'feature_name' develop` | Create a new feature branch from the develop branch |
+| 3    | `git checkout -b feature_name develop` | Create a new feature branch from the develop branch |
 | 4    | Make changes to the code | |
 | 5    | `git add .` | Stage all changes |
 | 6    | `git commit -m 'detailed message'` | Commit the changes with a message |
