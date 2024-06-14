@@ -71,8 +71,10 @@ External monitor brightness control: https://github.com/MonitorControl/MonitorCo
 | 5    | `git add .` | Stage all changes |
 | 6    | `git commit -m 'detailed message'` | Commit the changes with a message |
 | 7    | `git push origin feature_name` | Push the feature branch to the remote repository |
-| 8    | Create pull request on GitHub | MAKE SURE to change the base branch from main to develop. Then, assign a reviewer if necessary |
-| 9    | Notify the reviewer | Send them a message |
-| 10   | Reviewer merges pull request, and deletes the branch on the remote repository | |
-| 11   | `git checkout develop`<br>`git pull origin develop` | Update your local develop branch |
-| 12   | `git fetch --prune` | Fetch and prune remote-tracking branches that no longer exist |
+| 8    | `git merge develop` | merge `develop` into `feature_name` |
+| 9    | solve potential merge conflicts | |
+| 10    | Create pull request on GitHub | MAKE SURE to change the base branch from main to develop. Then, assign a reviewer if necessary |
+| 11    | Notify the reviewer | Send them a message |
+| 12   | Reviewer merges pull request, and deletes the branch on the remote repository | |
+| 13   | `git checkout develop`<br>`git pull origin develop` | Update your local develop branch |
+| 14   | `git fetch --prune` | Fetch and prune remote-tracking branches that no longer exist |
