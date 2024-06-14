@@ -76,5 +76,5 @@ External monitor brightness control: https://github.com/MonitorControl/MonitorCo
 | 10    | Create pull request on GitHub | MAKE SURE to change the base branch from main to develop. Then, assign a reviewer if necessary |
 | 11    | Notify the reviewer | Send them a message |
 | 12   | Reviewer merges pull request, and deletes the branch on the remote repository | |
-| 13   | `git pull origin develop` | Update your local develop branch |
+| 13   | `git checkout develop`<br>`git pull origin develop` | Update your local develop branch |
 | 14   | `git fetch --prune` | Fetch and prune remote-tracking branches that no longer exist |
