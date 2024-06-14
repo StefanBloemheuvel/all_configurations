@@ -71,7 +71,7 @@ External monitor brightness control: https://github.com/MonitorControl/MonitorCo
 | 5    | `git add .` | Stage all changes |
 | 6    | `git commit -m 'detailed message'` | Commit the changes with a message |
 | 7    | `git push origin feature_name` | Push the feature branch to the remote repository |
-| 8    | `git merge develop` | merge `develop` into `feature_name` |
+| 8    | `git merge develop` | merge `develop` into `feature_name`, to minimize delta between feature branch and develop |
 | 9    | solve potential merge conflicts | |
 | 10    | Create pull request on GitHub | MAKE SURE to change the base branch from main to develop. Then, assign a reviewer if necessary |
 | 11    | Notify the reviewer | Send them a message |
