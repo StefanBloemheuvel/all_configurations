@@ -78,3 +78,7 @@ External monitor brightness control: https://github.com/MonitorControl/MonitorCo
 | 12   | Reviewer merges pull request, and deletes the branch on the remote repository | |
 | 13   | `git checkout develop`<br>`git pull origin develop` | Update your local develop branch |
 | 14   | `git fetch --prune` | Fetch and prune remote-tracking branches that no longer exist |
+
+## Andere belangrijke git commands
+
+- `git stach`: Tijdelijk opslaan van changes in een branch, breng ze terug met `git stach pop`
