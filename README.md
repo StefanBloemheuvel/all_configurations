@@ -80,4 +80,4 @@ External monitor brightness control: https://github.com/MonitorControl/MonitorCo
 
 ## Andere belangrijke git commands
 
-- `git stach`: Tijdelijk opslaan van changes in een branch, breng ze terug met `git stach pop`
+- `git stash`: Tijdelijk opslaan van changes in een branch, breng ze terug met `git stach pop`
