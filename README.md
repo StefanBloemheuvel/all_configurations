@@ -64,20 +64,19 @@ External monitor brightness control: https://github.com/MonitorControl/MonitorCo
 ## Github Flow
 | STEP | COMMAND / ACTION | EXPLANATION |
 |------|------------------|-------------|
-| 1    | `git checkout develop` | Make sure you are in the develop branch |
-| 2    | `git pull origin develop` | Pull latest code version from develop branch before making a new branch |
-| 3    | `git checkout -b feature_name develop` | Create a new feature branch from the develop branch |
-| 4    | Make changes to the code | |
-| 5    | `git add .` | Stage all changes |
-| 6    | `git commit -m 'detailed message'` | Commit the changes with a message |
-| 7    | `git push origin feature_name` | Push the feature branch to the remote repository |
-| 8    | `git merge develop` | merge `develop` into `feature_name`, to minimize delta between feature branch and develop |
-| 9    | solve potential merge conflicts | |
-| 10    | Create pull request on GitHub | MAKE SURE to change the base branch from main to develop. Then, assign a reviewer if necessary |
-| 11    | Notify the reviewer | Send them a message |
-| 12   | Reviewer merges pull request, and deletes the branch on the remote repository | |
-| 13   | `git checkout develop`<br>`git pull origin develop` | Update your local develop branch |
-| 14   | `git fetch --prune` | Fetch and prune remote-tracking branches that no longer exist |
+| 1    | `git checkout develop`<br>`git pull origin develop` | Make sure you are in the develop branch, and pull latest changes |
+| 2    | `git checkout -b feature_name develop` | Create a new feature branch from the develop branch |
+| 3    | Make changes to the code | |
+| 4    | `git add .` | Stage all changes |
+| 5    | `git commit -m 'detailed message'` | Commit the changes with a message |
+| 6    | `git push origin feature_name` | Push the feature branch to the remote repository |
+| 7    | `git merge develop` | merge `develop` into `feature_name`, to minimize delta between feature branch and develop |
+| 8    | solve potential merge conflicts | |
+| 9    | Create pull request on GitHub | MAKE SURE to change the base branch from main to develop. Then, assign a reviewer if necessary |
+| 10    | Notify the reviewer | Send them a message |
+| 11   | Reviewer merges pull request, and deletes the branch on the remote repository | |
+| 12   | `git checkout develop`<br>`git pull origin develop` | Update your local develop branch |
+| 13   | `git fetch --prune` | Fetch and prune remote-tracking branches that no longer exist |
 
 ## Andere belangrijke git commands
 
