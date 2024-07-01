@@ -64,19 +64,18 @@ External monitor brightness control: https://github.com/MonitorControl/MonitorCo
 ## Github Flow
 | STEP | COMMAND / ACTION | EXPLANATION |
 |------|------------------|-------------|
-| 1    | `git checkout develop`<br>`git pull origin develop` | Make sure you are in the develop branch, and pull latest changes |
+| 1    | `git checkout develop`<br>`git pull origin develop` | Make sure you are in the develop branch, and pull the latest changes |
 | 2    | `git checkout -b feature_name develop` | Create a new feature branch from the develop branch |
 | 3    | Make changes to the code | |
 | 4    | `git add .` | Stage all changes |
 | 5    | `git commit -m 'detailed message'` | Commit the changes with a message |
 | 6    | `git push origin feature_name` | Push the feature branch to the remote repository |
-| 7    | `git merge develop` | merge `develop` into `feature_name`, to minimize delta between feature branch and develop |
-| 8    | solve potential merge conflicts | |
-| 9    | Create pull request on GitHub | MAKE SURE to change the base branch from main to develop. Then, assign a reviewer if necessary |
-| 10    | Notify the reviewer | Send them a message |
-| 11   | Reviewer merges pull request, and deletes the branch on the remote repository | |
-| 12   | `git checkout develop`<br>`git pull origin develop` | Update your local develop branch |
-| 13   | `git fetch --prune` | Fetch and prune remote-tracking branches that no longer exist |
+| 7    | Create pull request on GitHub | Create a pull request targeting the `develop` branch. Assign a reviewer if necessary |
+| 8    | Notify the reviewer | Send them a message |
+| 9    | Reviewer merges pull request, and deletes the branch on the remote repository | The reviewer will handle merging the feature branch into `develop`, addressing any conflicts if they arise |
+| 10   | `git checkout develop`<br>`git pull origin develop` | Update your local develop branch with the latest changes |
+| 11   | `git fetch --prune` | Fetch and prune remote-tracking branches that no longer exist |
+
 
 ## Andere belangrijke git commands
 
