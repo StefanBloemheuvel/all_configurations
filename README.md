@@ -62,6 +62,10 @@ Control brightness with vivid: https://www.getvivid.app
 External monitor brightness control: https://github.com/MonitorControl/MonitorControl  
 
 ## Github Flow
+
+git flow < 4 people in team
+chunk based flow > 5 people in team
+
 | STEP | COMMAND / ACTION | EXPLANATION |
 |------|------------------|-------------|
 | 1    | `git checkout develop`<br>`git pull origin develop` | Make sure you are in the develop branch, and pull the latest changes |
