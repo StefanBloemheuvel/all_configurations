@@ -78,7 +78,7 @@ chunk based flow > 5 people in team
 | 8    | Notify the reviewer | Send them a message |
 | 9    | Reviewer merges pull request, and deletes the branch on the remote repository | The reviewer will handle merging the feature branch into `develop`, addressing any conflicts if they arise |
 | 10   | `git checkout develop`<br>`git pull origin develop` | Update your local develop branch with the latest changes |
-| 11   | `git fetch --prune` | Fetch and prune remote-tracking branches that no longer exist |
+| 11   | `git branch -d feature_name` | Remove branch  |
 
 
 ## Andere belangrijke git commands
