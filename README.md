@@ -69,7 +69,7 @@ chunk based flow > 5 people in team
 | STEP | COMMAND / ACTION | EXPLANATION |
 |------|------------------|-------------|
 | 1    | `git checkout develop`<br>`git pull origin develop` | Make sure you are in the develop branch, and pull the latest changes |
-| 2    | `git checkout -b feature_name` | Create a new feature branch from the develop branch, since you are currently in the develop branch |
+| 2    | `git checkout -b develop origin/develop` | Create a new feature branch from the develop branch |
 | 3    | Make changes to the code | |
 | 4    | `git add .` | Stage all changes |
 | 5    | `git commit -m 'detailed message'` | Commit the changes with a message |
