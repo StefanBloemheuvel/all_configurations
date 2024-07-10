@@ -57,6 +57,17 @@ Host *
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_ed25519
 ```
+
+## Important Mac apps/changes
+Install these VSCode extensions:
+- Material Icon Theme
+- Git History
+- Github Pull Requests
+- One Light Theme
+- Rainbow CSV
+- Atom One Dark Theme
+
+
 ## Optional
 Control brightness with vivid: https://www.getvivid.app  
 External monitor brightness control: https://github.com/MonitorControl/MonitorControl  
