@@ -35,7 +35,7 @@ Then, if not allowed to install due to restrictions, install:
 Install these apps:
 - Homebrew
 - Spectacle
-- Pure PAste
+- Pure Paste
 - Hidden Bar
 - Ghostery ad blocker
 - Bitwarden
