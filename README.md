@@ -83,4 +83,4 @@ chunk based flow > 5 people in team
 
 ## Andere belangrijke git commands
 
-- `git stash`: Tijdelijk opslaan van changes in een branch, breng ze terug met `git stach pop`
+- `git stash`: Tijdelijk opslaan van changes in een branch, breng ze terug met `git stach pop`, ziet een lijst met stashes via `git stach list` of verwijderd al je stashes gemakkelijk met `git stash clear`
