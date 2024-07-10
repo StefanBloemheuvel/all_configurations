@@ -63,8 +63,8 @@ External monitor brightness control: https://github.com/MonitorControl/MonitorCo
 
 ## Github Flow
 
-git flow < 4 people in team
-chunk based flow > 5 people in team
+git flow < 4 people in team 
+chunk based flow > 5 people in team 
 
 | STEP | COMMAND / ACTION | EXPLANATION |
 |------|------------------|-------------|
@@ -83,4 +83,4 @@ chunk based flow > 5 people in team
 
 ## Andere belangrijke git commands
 
-- `git stash`: Tijdelijk opslaan van changes in een branch, breng ze terug met `git stach pop`, ziet een lijst met stashes via `git stach list` of verwijderd al je stashes gemakkelijk met `git stash clear`
+- `git stash`: Tijdelijk opslaan van changes in een branch, breng ze terug met `git stash pop`, ziet een lijst met stashes via `git stash list` of verwijderd al je stashes gemakkelijk met `git stash clear`
