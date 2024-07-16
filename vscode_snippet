@@ -1,0 +1,13 @@
+{
+    "InteractiveShell": {
+        "prefix": "interactiveShell",
+        "body": [
+            "import code",
+            "variables = globals().copy()",
+            "variables.update(locals())",
+            "shell = code.InteractiveConsole(variables)",
+            "shell.interact(\"Interactive mode. You can inspect variables and call functions.\")"
+        ],
+        "description": "Launches an interactive shell for inspecting variables and calling functions."
+    }
+}
