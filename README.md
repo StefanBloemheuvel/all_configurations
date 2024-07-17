@@ -80,16 +80,16 @@ chunk based flow > 5 people in team
 | STEP | COMMAND / ACTION | EXPLANATION |
 |------|------------------|-------------|
 | 1    | `git checkout develop`<br>`git pull origin develop` | Make sure you are in the develop branch, and pull the latest changes |
-| 2    | `git checkout -b feature_name develop` | Create a new feature branch from the develop branch |
+| 2    | `git checkout -b feature/feature_name develop` | Create a new feature branch from the develop branch |
 | 3    | Make changes to the code | |
 | 4    | `git add .` | Stage all changes |
 | 5    | `git commit -m 'detailed message'` | Commit the changes with a message |
-| 6    | `git push origin feature_name` | Push the feature branch to the remote repository |
+| 6    | `git push origin feature/feature_name` | Push the feature branch to the remote repository |
 | 7    | Create pull request on GitHub | Create a pull request targeting the `develop` branch. Assign a reviewer if necessary |
 | 8    | Notify the reviewer | Send them a message |
 | 9    | Reviewer merges pull request, and deletes the branch on the remote repository | The reviewer will handle merging the feature branch into `develop`, addressing any conflicts if they arise |
 | 10   | `git checkout develop`<br>`git pull origin develop` | Update your local develop branch with the latest changes |
-| 11   | `git branch -d feature_name` | Remove branch  |
+| 11   | `git branch -d feature/feature_name` | Remove branch  |
 
 
 ## Andere belangrijke git commands
