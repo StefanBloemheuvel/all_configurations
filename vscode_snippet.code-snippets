@@ -9,5 +9,12 @@
             "shell.interact(\"Interactive mode. You can inspect variables and call functions.\")"
         ],
         "description": "Launches an interactive shell for inspecting variables and calling functions."
-    }
+    },
+    "CreateEnv": {
+        "prefix": "createenv",
+        "body": [
+            "python -m venv .venv"
+        ],
+        "description": "How to create a virtual environment."
+    },
 }
