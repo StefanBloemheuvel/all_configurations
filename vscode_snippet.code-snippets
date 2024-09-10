@@ -17,4 +17,20 @@
         ],
         "description": "How to create a virtual environment."
     },
+    "TryExceptWithTraceback": {
+        "prefix": "tryexcepttraceback",
+        "body": [
+            "import traceback",
+            "import sys",
+            "try:",
+            "    $1",
+            "except Exception as e:",
+            "    print(f\"Exception occurred: {str(e)}\")",
+            "    traceback.print_exc()",
+            "    exc_type, exc_value, exc_traceback = sys.exc_info()",
+            "    line_number = exc_traceback.tb_lineno",
+            "    print(f\"Error on line {line_number}\")"
+        ],
+        "description": "Try-Except block with traceback and line number."
+    }
 }
