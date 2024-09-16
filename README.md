@@ -40,6 +40,7 @@ Install these apps:
 - Ghostery ad blocker
 - Bitwarden
 - Trello
+- Badgeify menu items notifications (for teams, outlook etc)
 
 
 ## Setup github
