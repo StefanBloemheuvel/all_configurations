@@ -96,3 +96,17 @@ chunk based flow > 5 people in team
 ## Andere belangrijke git commands
 
 - `git stash`: Tijdelijk opslaan van changes in een branch, breng ze terug met `git stash pop`, ziet een lijst met stashes via `git stash list` of verwijderd al je stashes gemakkelijk met `git stash clear`
+- 
+
+
+## Terraform commands
+1. **terraform init**
+   - Initializes a Terraform project, setting up the backend and downloading provider plugins.
+
+2. **terraform plan**
+   - Creates an execution plan, showing the changes Terraform will make to achieve the desired state.
+
+3. **terraform state list**
+   - Lists all resources
+4. **terraform show**
+   - Lists all in detail
