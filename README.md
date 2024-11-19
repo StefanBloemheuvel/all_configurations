@@ -41,6 +41,7 @@ Install these apps:
 - Bitwarden
 - Trello
 - Badgeify menu items notifications (for teams, outlook etc)
+- Itsycal
 
 
 ## Setup github
