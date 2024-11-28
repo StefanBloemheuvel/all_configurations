@@ -1,0 +1,29 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "interactiveWindow.executeWithShiftEnter": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "githubPullRequests.terminalLinksHandler": "github",
+    "interactiveWindow.showExecutionHint": false,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "jupyter.askForKernelRestart": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "editor.guides.bracketPairs": true,
+    "python.createEnvironment.trigger": "off",
+    "editor.minimap.enabled": false,
+    "workbench.colorCustomizations": {
+        "terminal.background":"#090300",
+        "terminal.foreground":"#A5A2A2",
+        "terminalCursor.background":"#A5A2A2",
+        "terminalCursor.foreground":"#A5A2A2",
+
+        "panel.background": "#FF4500", // Background color of the panel
+        "panel.border": "#FF4500", // Border color of the panel
+        "panel.dropBackground": "#282828", // Background color when dragging and dropping an item into the panel
+        "panelTitle.activeBorder": "#FFD700", // Border color of the active panel title
+        "panelTitle.activeForeground": "#FFFFFF", // Foreground color of the active panel title
+        "panelTitle.inactiveForeground": "#A5A5A5" // Foreground color of ina
+    },
+    "workbench.colorTheme": "Atom One Dark"
+}
