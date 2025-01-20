@@ -11,7 +11,6 @@
     "python.analysis.inlayHints.functionReturnTypes": true,
     "editor.guides.bracketPairs": true,
     "python.createEnvironment.trigger": "off",
-    "editor.minimap.enabled": false,
     "workbench.colorCustomizations": {
         "terminal.background": "#000000",
         "terminal.foreground": "#FFFFFF",
@@ -25,7 +24,13 @@
         "panelTitle.activeForeground": "#FFFFFF", // Foreground color of the active panel title
         "panelTitle.inactiveForeground": "#A5A5A5", // Foreground color of ina
 
-        "sideBar.border": "#FF4500"
+        "sideBar.border": "#FF4500",
+
+        // Scrollbar indicators (right)
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000"
     },
-    "workbench.colorTheme": "Atom One Dark"
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.minimap.enabled": false
 }
