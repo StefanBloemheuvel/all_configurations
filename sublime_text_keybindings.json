@@ -1,10 +1,13 @@
 [
     {
-        "keys": ["alt+up"],
+        "keys": ["alt+up"], 
         "command": "swap_line_up"
     },
     {
-        "keys": ["alt+down"],
-        "command": "swap_line_down",
+        "keys": ["alt+down"], 
+        "command": "swap_line_down"
     },
+
+    { "keys": ["end"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["home"], "command": "move_to", "args": {"to": "bol", "extend": false} }
 ]
