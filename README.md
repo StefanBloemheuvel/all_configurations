@@ -3,7 +3,7 @@ configs for vscode, sublime, ohmyzsh and more
 
 | Shortcut | Explanation |
 |----------|------------------|
-| Cmd + 0  | Focus on sidebar items
+| Cmd + 0 / Cmd + Shift + E  | Focus on sidebar items
 
 ## always do this
 
