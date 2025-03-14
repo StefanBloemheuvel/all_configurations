@@ -4,6 +4,8 @@ configs for vscode, sublime, ohmyzsh and more
 | Shortcut | Explanation |
 |----------|------------------|
 | Cmd + 0 / Cmd + Shift + E  | Focus on sidebar items
+| Cmd + T  | Search for function/class names
+
 
 ## always do this
 
