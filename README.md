@@ -3,6 +3,7 @@ configs for vscode, sublime, ohmyzsh and more
 
 | Shortcut | Explanation |
 |----------|------------------|
+| Cmd + [  | shift whole line to right
 | Cmd + 0 / Cmd + Shift + E  | Focus on sidebar items
 | Cmd + T  | Search for function/class names
 | Shift + Ctrl + Right Arrow  | Select entire function
