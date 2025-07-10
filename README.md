@@ -8,6 +8,8 @@ configs for vscode, sublime, ohmyzsh and more
 | Cmd + T  | Search for function/class names
 | Shift + Ctrl + Right Arrow  | Select entire function
 | Ctrl + G  | Go to line
+| CMD + Shift + L  | Select all occurences of object in current focus
+
 
 
 
