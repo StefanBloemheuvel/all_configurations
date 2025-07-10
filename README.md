@@ -12,6 +12,8 @@ configs for vscode, sublime, ohmyzsh and more
 | Cmd + L  | Select entire line
 | Cmd + \  | Split current window in two panes
 | Cmd + D  | Select current object/word
+| Ctrl + J  | Join previous line to current line
+
 
 
 
