@@ -10,6 +10,8 @@ configs for vscode, sublime, ohmyzsh and more
 | Ctrl + G  | Go to line
 | Cmd + Shift + L  | Select all occurences of object in current focus
 | Cmd + L  | Select entire line
+| Cmd + \  | Split current window in two panes
+
 
 
 
