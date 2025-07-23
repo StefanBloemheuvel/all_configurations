@@ -16,6 +16,7 @@ configs for vscode, sublime, ohmyzsh and more
 | Cmd + Shift + .  | Get window with all functions in current script for fast navigation
 
 Extra tip: in breakpoint() Pdb: interact [gives you interactive window where you can paste multiline code]
+Extra tip: python -m pdb script.py
 
 
 
