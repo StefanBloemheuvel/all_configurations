@@ -2,24 +2,24 @@
 configs for vscode, sublime, ohmyzsh and more
 
 | VSCode Shortcut | Explanation |
-|----------|------------------|
-| Cmd + [  | shift whole line to right
-| Cmd + 0 / Cmd + Shift + E  | Focus on sidebar items
-| Cmd + T  | Search for function/class names
-| Shift + Ctrl + Right Arrow  | Select entire function
-| Ctrl + G  | Go to line
-| Cmd + Shift + L  | Select all occurences of object in current focus
-| Cmd + L  | Select entire line
-| Cmd + \  | Split current window in two panes
-| Cmd + D  | Select current object/word
-| Ctrl + J  | Join previous line to current line
-| Cmd + Shift + .  | Get window with all functions in current script for fast navigation
+|-------------------------------|------------------|
+| Cmd + [                       | shift whole line to right
+| Cmd + 0 / Cmd + Shift + E     | Focus on sidebar items
+| Cmd + T                       | Search for function/class names
+| Shift + Ctrl + Right Arrow    | Select entire function
+| Ctrl + G                      | Go to line
+| Cmd + Shift + L               | Select all occurences of object in current focus
+| Cmd + L                       | Select entire line
+| Cmd + \                       | Split current window in two panes
+| Cmd + D                       | Select current object/word
+| Ctrl + J                      | Join previous line to current line
+| Cmd + Shift + .               | Get window with all functions in current script for fast navigation
 
 | Terminal/ Git Shortcut | Explanation |
-|---------------------|------------------|
-| git rebase -i main  | Interactive rebase where commits can be picked
-| Ctrl + R       | fuzzy search through previous terminal commands
-| git checkout - | checkout previous branch
+|------------------------|------------------|
+| git rebase -i main     | Interactive rebase where commits can be picked
+| Ctrl + R               | fuzzy search through previous terminal commands
+| git checkout -         | checkout previous branch
 
 Extra tip: in breakpoint() Pdb: interact [gives you interactive window where you can paste multiline code] <br>
 Extra tip: python -m pdb script.py
