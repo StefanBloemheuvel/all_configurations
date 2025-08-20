@@ -2,7 +2,7 @@
 configs for vscode, sublime, ohmyzsh and more
 
 | VSCode Shortcut | Explanation |
-|-------------------------------|------------------|
+|-------------------------------|---------------------------------------------------------------------|
 | Cmd + [                       | shift whole line to right
 | Cmd + 0 / Cmd + Shift + E     | Focus on sidebar items
 | Cmd + T                       | Search for function/class names
@@ -15,13 +15,14 @@ configs for vscode, sublime, ohmyzsh and more
 | Ctrl + J                      | Join previous line to current line
 | Cmd + Shift + .               | Get window with all functions in current script for fast navigation
 
-| Terminal/ Git Shortcut  | Explanation |
-|-------------------------|------------------|
-| git rebase -i main      | Interactive rebase where commits can be picked
-| Ctrl + R                | fuzzy search through previous terminal commands
-| git checkout -          | checkout previous branch
-| python -m pdb script.py | run until error then Pdb() env
-| breakpoint() & interact | gives interactive environment with multi-line support pasting
+| Terminal/ Git Shortcut               | Explanation                                                   |
+|--------------------------------------|---------------------------------------------------------------|
+| git rebase -i main                   | Interactive rebase where commits can be picked
+| Ctrl + R                             | fuzzy search through previous terminal commands
+| git checkout -                       | checkout previous branch
+| python -m pdb script.py              | run until error then Pdb() env
+| breakpoint() & interact              | gives interactive environment with multi-line support pasting
+| git stach & git pop & git stash list | store changes in temp place and put back again with pop
 
 
 ## always do this
