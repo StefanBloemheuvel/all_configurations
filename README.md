@@ -1,7 +1,7 @@
 # all_configurations
 configs for vscode, sublime, ohmyzsh and more
 
-| Shortcut | Explanation |
+| VSCode Shortcut | Explanation |
 |----------|------------------|
 | Cmd + [  | shift whole line to right
 | Cmd + 0 / Cmd + Shift + E  | Focus on sidebar items
@@ -14,6 +14,12 @@ configs for vscode, sublime, ohmyzsh and more
 | Cmd + D  | Select current object/word
 | Ctrl + J  | Join previous line to current line
 | Cmd + Shift + .  | Get window with all functions in current script for fast navigation
+
+| Terminal/ Git Shortcut | Explanation |
+|---------------------|------------------|
+| git rebase -i main  | Interactive rebase where commits can be picked
+| Ctrl + R       | fuzzy search through previous terminal commands
+| git checkout - | checkout previous branch
 
 Extra tip: in breakpoint() Pdb: interact [gives you interactive window where you can paste multiline code] <br>
 Extra tip: python -m pdb script.py
