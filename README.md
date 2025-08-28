@@ -23,6 +23,7 @@ configs for vscode, sublime, ohmyzsh and more
 | python -m pdb script.py              | run until error then Pdb() env
 | breakpoint() & interact              | gives interactive environment with multi-line support pasting
 | git stach & git pop & git stash list | store changes in temp place and put back again with pop
+| l . or list .                        | see where you are in the code during Pdb session
 
 
 ## always do this
