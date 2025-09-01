@@ -66,6 +66,9 @@ Install these apps:
 - Badgeify menu items notifications (for teams, outlook etc)
 - Itsycal
 
+## Chrome extensions
+- Smooth Key Scroll (for scrolling with J and K)
+
 
 ## Setup github
 https://docs.github.com/en/enterprise-server@3.8/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux  
