@@ -108,17 +108,18 @@ chunk based flow > 5 people in team
 | STEP | COMMAND / ACTION | EXPLANATION |
 |------|------------------|-------------|
 | 1    | `git checkout main` | go to main |
-| 1    | `git pull origin main` | Make sure you are in the develop branch, and pull the latest changes |
-| 2    | `git checkout -b sbloemheuvel/feature_name` | Create a new feature branch from the main branch |
-| 3    | Make changes to the code | |
-| 4    | `git add .` | Stage all changes |
-| 5    | `git commit -m 'detailed message'` | Commit the changes with a message |
-| 6    | `git push origin sbloemheuvel/feature_name` | Push the feature branch to the remote repository |
-| 7    | Create pull request on GitHub | Create a pull request targeting the `main` branch. Assign a reviewer if necessary |
-| 8    | Notify the reviewer | Send them a message |
-| 9    | Reviewer merges pull request, and deletes the branch on the remote repository | The reviewer will handle merging the feature branch into `develop`, addressing any conflicts if they arise |
-| 10   | `git checkout main `<br>`git pull origin main` | Update your local develop branch with the latest changes |
-| 11   | `git branch -d sbloemheuvel/feature_name` | Remove branch  |
+| 2    | `git pull origin main` | pull the latest changes |
+| 3    | `git checkout -b sbloemheuvel/feature_name` | Create a new feature branch from the main branch |
+| 4    | Make changes to the code | |
+| 5    | `git add .` | Stage all changes you made |
+| 6    | `pre-commit run ` | check cody quality |
+| 7    | `git commit -m 'detailed message'` | Commit the changes with a message |
+| 8    | `git push origin sbloemheuvel/feature_name` | Push the feature branch to the remote repository |
+| 9    | Create pull request on Gitlab | Create a pull request targeting the `main` branch. Assign a reviewer if necessary |
+| 10    | Notify the reviewer | Send them a message |
+| 11    | Reviewer merges pull request, and deletes the branch on the remote repository | The reviewer will handle merging the feature branch into `develop`, addressing any conflicts if they arise |
+| 12   | `git checkout main `<br>`git pull origin main` | Update your local develop branch with the latest changes |
+| 13   | `git branch -d sbloemheuvel/feature_name` | Remove branch  |
 
 
 ## Andere belangrijke git commands
