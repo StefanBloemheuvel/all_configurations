@@ -100,7 +100,7 @@ Install these VSCode extensions:
 Control brightness with vivid: https://www.getvivid.app  
 External monitor brightness control: https://github.com/MonitorControl/MonitorControl  
 
-## Github Flow
+## Git Flow
 
 git flow < 4 people in team 
 chunk based flow > 5 people in team 
