@@ -109,17 +109,17 @@ chunk based flow > 5 people in team
 |------|------------------|-------------|
 | 1    | `git checkout main` | go to main |
 | 2    | `git pull origin main` | pull the latest changes |
-| 3    | `git checkout -b sbloemheuvel/feature_name` | Create a new feature branch from the main branch |
+| 3    | `git checkout -b username/feature_name` | Create a new feature branch from the main branch |
 | 4    | Make changes to the code | |
 | 5    | `git add .` | Stage all changes you made |
 | 6    | `pre-commit run ` | check code quality and add neede changes with `git add .` again |
 | 7    | `git commit -m 'detailed message'` | Commit the changes with a message |
-| 8    | `git push origin sbloemheuvel/feature_name` | Repeat steps 4-7 untill satisfied. Push the feature branch to the remote repository |
+| 8    | `git push origin username/feature_name` | Repeat steps 4-7 untill satisfied. Push the feature branch to the remote repository |
 | 9    | Create pull request on Gitlab | Create a pull request targeting the `main` branch, link is in the message in your terminal. Assign a reviewer |
 | 10   | Notify the reviewer | Send them a message |
 | 11   | Reviewer/you perform rebase on gitlab ui, merges pull request, and deletes the branch on the remote repository automatically |  |
 | 12   | `git checkout main `<br>`git pull origin main` | Go back to main, update with the latest changes |
-| 13   | `git branch -d sbloemheuvel/feature_name` | Remove branch  |
+| 13   | `git branch -d username/feature_name` | Remove branch  |
 
 
 ## Andere belangrijke git commands
