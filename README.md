@@ -115,10 +115,10 @@ chunk based flow > 5 people in team
 | 6    | `pre-commit run ` | check cody quality |
 | 7    | `git commit -m 'detailed message'` | Commit the changes with a message |
 | 8    | `git push origin sbloemheuvel/feature_name` | Push the feature branch to the remote repository |
-| 9    | Create pull request on Gitlab | Create a pull request targeting the `main` branch. Assign a reviewer if necessary |
-| 10    | Notify the reviewer | Send them a message |
-| 11    | Reviewer merges pull request, and deletes the branch on the remote repository | The reviewer will handle merging the feature branch into `develop`, addressing any conflicts if they arise |
-| 12   | `git checkout main `<br>`git pull origin main` | Update your local develop branch with the latest changes |
+| 9    | Create pull request on Gitlab | Create a pull request targeting the `main` branch, link is in the message in your terminal. Assign a reviewer |
+| 10   | Notify the reviewer | Send them a message |
+| 11   | Reviewer/you perform rebase on gitlab ui, merges pull request, and deletes the branch on the remote repository automatically |  |
+| 12   | `git checkout main `<br>`git pull origin main` | Go back to main, update with the latest changes |
 | 13   | `git branch -d sbloemheuvel/feature_name` | Remove branch  |
 
 
