@@ -117,7 +117,7 @@ chunk based flow > 5 people in team
 | 8    | `git push origin username/feature_name` | Repeat steps 4-7 untill satisfied. Push the feature branch to the remote repository |
 | 9    | Create pull request on Gitlab | Create a pull request targeting the `main` branch, link is in the message in your terminal. Assign a reviewer |
 | 10   | Notify the reviewer | Send them a message |
-| 11   | Reviewer/you perform rebase on gitlab ui, merges pull request, and deletes the branch on the remote repository automatically |  |
+| 11   | Reviewer/you perform rebase on gitlab ui, merges pull request, and deletes the feature branch on the remote repository automatically |  |
 | 12   | `git checkout main `<br>`git pull origin main` | Go back to main, update with the latest changes |
 | 13   | `git branch -d username/feature_name` | Remove branch  |
 
