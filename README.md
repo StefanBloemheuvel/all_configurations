@@ -112,7 +112,7 @@ chunk based flow > 5 people in team
 | 3    | `git checkout -b sbloemheuvel/feature_name` | Create a new feature branch from the main branch |
 | 4    | Make changes to the code | |
 | 5    | `git add .` | Stage all changes you made |
-| 6    | `pre-commit run ` | check cody quality |
+| 6    | `pre-commit run ` | check code quality and add neede changes with `git add .` again |
 | 7    | `git commit -m 'detailed message'` | Commit the changes with a message |
 | 8    | `git push origin sbloemheuvel/feature_name` | Push the feature branch to the remote repository |
 | 9    | Create pull request on Gitlab | Create a pull request targeting the `main` branch, link is in the message in your terminal. Assign a reviewer |
