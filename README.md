@@ -114,7 +114,7 @@ chunk based flow > 5 people in team
 | 5    | `git add .` | Stage all changes you made |
 | 6    | `pre-commit run ` | check code quality and add neede changes with `git add .` again |
 | 7    | `git commit -m 'detailed message'` | Commit the changes with a message |
-| 8    | `git push origin sbloemheuvel/feature_name` | Push the feature branch to the remote repository |
+| 8    | `git push origin sbloemheuvel/feature_name` | Repeat steps 4-7 untill satisfied. Push the feature branch to the remote repository |
 | 9    | Create pull request on Gitlab | Create a pull request targeting the `main` branch, link is in the message in your terminal. Assign a reviewer |
 | 10   | Notify the reviewer | Send them a message |
 | 11   | Reviewer/you perform rebase on gitlab ui, merges pull request, and deletes the branch on the remote repository automatically |  |
