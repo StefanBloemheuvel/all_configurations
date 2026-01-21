@@ -123,20 +123,12 @@ chunk based flow > 5 people in team
 | 13   | `git branch -d username/feature_name` | Remove branch  |
 
 
-## Andere belangrijke git commands
+## SQL command order
+1. SELECT (What columns/aggregates?)
+2. FROM (Which table?)
+3. WHERE (Filter rows – missing in your example)
+4. GROUP BY (Aggregate by what?)
+5. HAVING (Filter groups – missing in your example)
+6. ORDER BY (Sort results)
 
-- `git stash`: Tijdelijk opslaan van changes in een branch, breng ze terug met `git stash pop`, ziet een lijst met stashes via `git stash list` of verwijderd al je stashes gemakkelijk met `git stash clear`
-- 
-
-
-## Terraform commands
-1. **terraform init**
-   - Initializes a Terraform project, setting up the backend and downloading provider plugins.
-
-2. **terraform plan**
-   - Creates an execution plan, showing the changes Terraform will make to achieve the desired state.
-
-3. **terraform state list**
-   - Lists all resources
-4. **terraform show**
-   - Lists all in detail
+LIMIT (How many rows?)
