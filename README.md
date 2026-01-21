@@ -130,5 +130,4 @@ chunk based flow > 5 people in team
 4. GROUP BY (Aggregate by what?)
 5. HAVING (Filter groups – missing in your example)
 6. ORDER BY (Sort results)
-
-LIMIT (How many rows?)
+7. LIMIT (How many rows?)
