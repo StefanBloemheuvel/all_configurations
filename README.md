@@ -25,6 +25,7 @@ configs for vscode, sublime, ohmyzsh and more
 | git stach & git pop & git stash list | store changes in temp place and put back again with pop
 | l . or list .                        | see where you are in the code during Pdb session
 | git diff main . --stat               | see changes between current feature branch and main with statistics
+| ls */                                | see all files currently visible      
 
 
 ## always do this
