@@ -26,6 +26,7 @@ configs for vscode, sublime, ohmyzsh and more
 | l . or list .                        | see where you are in the code during Pdb session
 | git diff main . --stat               | see changes between current feature branch and main with statistics
 | ls */                                | see all files currently visible      
+| pipdeptree -r -p $naam_package       | see dependencies of a package
 
 
 ## always do this
